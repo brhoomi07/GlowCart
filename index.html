@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic SEO meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GlowCart is a modern one-page online store for smart lifestyle and tech products.">
+    <meta name="keywords" content="online store, product showcase, tech accessories, ecommerce, gadgets, GlowCart">
+    <meta name="author" content="Ebrahim Ajooz">
+
+    <title>GlowCart | Product Showcase Store</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="home">
+        <div class="container header-container">
+            <div class="brand">
+                <h1>GlowCart</h1>
+                <p>Modern products for everyday life</p>
+            </div>
+
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#quiz">Quiz</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Hero section -->
+        <section class="hero section">
+            <div class="container hero-grid">
+                <article class="hero-content">
+                    <p class="tagline">One Page Product Store</p>
+                    <h2>Smart Products for a Better Lifestyle</h2>
+                    <p class="hero-text">
+                        GlowCart is a stylish product showcase website that presents useful and modern items
+                        in a clean, attractive, and user-friendly way.
+                    </p>
+                    <a href="#products" class="btn">Explore Products</a>
+                </article>
+
+                <figure class="hero-figure">
+                    <img src="images/hero-product.jpg" alt="Featured collection of GlowCart products" title="GlowCart featured products">
+                    <figcaption>Featured products from our latest collection.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Products section -->
+        <section id="products" class="section">
+            <div class="container">
+                <h2 class="section-title">Our Products</h2>
+                <p class="section-subtitle">
+                    Discover our top items selected for quality, design, and daily usefulness.
+                </p>
+
+                <div class="products-grid">
+                    <article class="product-card">
+                        <img src="images/headphones.jpg" alt="Wireless headphones product" title="Wireless Headphones">
+                        <h3>Wireless Headphones</h3>
+                        <p>Comfortable headphones with clear sound and long battery life.</p>
+                        <span class="price">BD 6.500</span>
+                    </article>
+
+                    <article class="product-card">
+                        <img src="images/smartwatch.jpg" alt="Smart watch product" title="Smart Watch">
+                        <h3>Smart Watch</h3>
+                        <p>A sleek smart watch for health tracking and notifications.</p>
+                        <span class="price">BD 15.000</span>
+                    </article>
+
+                    <article class="product-card">
+                        <img src="images/speaker.jpg" alt="Portable speaker product" title="Portable Speaker">
+                        <h3>Portable Speaker</h3>
+                        <p>A compact speaker with strong sound for indoor and outdoor use.</p>
+                        <span class="price">BD 14.750</span>
+                    </article>
+
+                    <article class="product-card">
+                        <img src="images/keyboard.jpg" alt="RGB keyboard product" title="RGB Keyboard">
+                        <h3>RGB Keyboard</h3>
+                        <p>A modern keyboard with responsive keys and colorful lighting.</p>
+                        <span class="price">BD 25.250</span>
+                    </article>
+
+                    <article class="product-card">
+                        <img src="images/mouse.jpg" alt="Gaming mouse product" title="Gaming Mouse">
+                        <h3>Gaming Mouse</h3>
+                        <p>An ergonomic mouse with accurate tracking and smooth movement.</p>
+                        <span class="price">BD 35.900</span>
+                    </article>
+
+                    <article class="product-card">
+                        <img src="images/stand.jpg" alt="Phone stand product" title="Phone Stand">
+                        <h3>Phone Stand</h3>
+                        <p>A practical stand that keeps your phone stable and easy to view.</p>
+                        <span class="price">BD 4.500</span>
+                    </article>
+                </div>
+
+                <div class="progress-box">
+                    <label for="stockLevel">Weekly stock availability:</label>
+                    <progress id="stockLevel" value="56" max="100">75%</progress>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section id="about" class="section alt-section">
+            <div class="container">
+                <h2 class="section-title">About GlowCart</h2>
+
+                <div class="about-columns">
+                    <p>
+                        GlowCart is a one-page online store that focuses on presenting products in a clean and
+                        engaging way. The website is designed to help users browse quickly, understand product
+                        details easily, and enjoy a modern digital shopping experience.
+                    </p>
+                    <p>
+                        The design uses simple navigation, balanced spacing, readable typography, and visually
+                        clear sections. It is created to be both attractive and practical, making the website easy
+                        to use for different kinds of visitors.
+                    </p>
+                </div>
+
+                <details class="details-box">
+                    <summary>Why choose GlowCart?</summary>
+                    <p>
+                        We focus on clean design, quality presentation, easy navigation, and user-friendly browsing.
+                    </p>
+                </details>
+            </div>
+        </section>
+
+        <!-- Media section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Store Media</h2>
+                <p class="section-subtitle">
+                    Watch our short promotional video and listen to the store introduction.
+                </p>
+
+                <div class="media-grid">
+                    <div class="media-card">
+                        <h3>Promotional Video</h3>
+                        <video controls poster="images/video-cover.jpg">
+                            <source src="video/store-promo.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+
+                    <div class="media-card">
+                        <h3>Audio Introduction</h3>
+                        <audio controls>
+                            <source src="audio/store-intro.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiz section -->
+        <section id="quiz" class="section alt-section">
+            <div class="container small-container">
+                <h2 class="section-title">Quick Product Quiz</h2>
+                <p class="section-subtitle">
+                    Choose the best product for listening to music on the go.
+                </p>
+
+                <form id="quizForm" class="quiz-box">
+                    <fieldset>
+                        <legend>What do you expect from our best-selling product?</legend>
+
+                        <label class="quiz-option">
+                            <input type="radio" name="productQuiz" value="wrong">
+                            Smart Watch
+                        </label>
+
+                        <label class="quiz-option">
+                            <input type="radio" name="productQuiz" value="correct">
+                            Wireless Headphones
+                        </label>
+
+                        <label class="quiz-option">
+                            <input type="radio" name="productQuiz" value="wrong">
+                            Phone Stand
+                        </label>
+                    </fieldset>
+
+                    <button type="button" id="checkAnswer" class="btn">Check Answer</button>
+                    <p id="quizFeedback" class="feedback-message"></p>
+                </form>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="section">
+            <div class="container small-container">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">
+                    Send us a message if you want to know more about our products.
+                </p>
+
+                <form id="contactForm" class="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name">
+                        <small id="nameError" class="error-message"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="emailAddress">Email Address</label>
+                        <input type="email" id="emailAddress" name="emailAddress" placeholder="Enter your email address">
+                        <small id="emailError" class="error-message"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here"></textarea>
+                        <small id="messageError" class="error-message"></small>
+                    </div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                    <p id="formSuccess" class="success-message"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 GlowCart. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
+</body>
+</html>
